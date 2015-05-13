@@ -7,9 +7,9 @@ dispatch:
     module: default
 
   # Send all mobile traffic to the mobile frontend.
-  - url: "*/hello/*"
-    module: module-hello
+  - url: "*/meteo/*"
+    module: module-meteo
 
   # Send all work to the one static backend.
-  - url: "*/data/*"
-    module: module-data
+  - url: "*/img/*"
+    module: module-img
